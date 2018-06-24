@@ -10,7 +10,7 @@ $ source venv/bin/activate
 
 ### 2. Install packages
 ```
-$ pip install -r requirements.txt
+$ pip3 install -r requirements.txt
 ```
 
 ### 3. Run Application
