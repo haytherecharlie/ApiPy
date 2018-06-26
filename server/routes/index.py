@@ -12,7 +12,8 @@ class Index(Resource):
 
     # GET METHOD
     def get(self):
-        return {
+		print(self)
+		return {
             'status': 200,
             'method': 'GET',
             'message': 'Successfully Retrieved Response',
