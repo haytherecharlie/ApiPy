@@ -1,20 +1,20 @@
 """
-PROXY CLASS
+DEFAULT CLASS
 -------------------
 © 2018 CBC
 """
 
-# PACKAGE IMPORTS
+# IMPORT PACKAGES
 from flask_restful import Resource
 
 # PROXY CLASS
-class Proxy(Resource):
+class Default(Resource):
 
 	# GET METHOD
 	def get(self):
 		return{
             'status': 200,
             'method': 'GET',
-            'message': 'Jira proxy success',
+            'message': 'Welcome to CBC Session API.',
             'payload': {}
         }
