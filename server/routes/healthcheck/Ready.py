@@ -12,7 +12,7 @@ class Ready(Resource):
 
     # GET METHOD
     def get(self):
-		return {
+        return{
             'status': 200,
             'method': 'GET',
             'message': 'App ready to respond.',
