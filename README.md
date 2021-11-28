@@ -1,4 +1,4 @@
-# Flash API Starter
+# Flask API Starter
 
 ## An Api Written in Python 3
 
